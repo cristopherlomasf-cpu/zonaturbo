@@ -1,0 +1,33 @@
+# ZONA TURBO - .gitignore
+
+# Variables de entorno (NUNCA subir)
+.env
+
+# Dependencias
+vendor/
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Cache
+cache/
+*.cache
+
+# Subidas de archivos
+uploads/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Builds
+dist/
+build/
